@@ -1,0 +1,30 @@
+{
+  "name": "kabanery-fold",
+  "version": "0.0.1",
+  "description": "fold component for kabanery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveKino/kabanery-fold.git"
+  },
+  "keywords": [
+    "fold",
+    "component",
+    "kabanery"
+  ],
+  "author": "ddchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoveKino/kabanery-fold/issues"
+  },
+  "homepage": "https://github.com/LoveKino/kabanery-fold#readme",
+  "dependencies": {
+    "kabanery": "^0.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
