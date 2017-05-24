@@ -1,8 +1,10 @@
 'use strict';
 
-let fold = require('../..');
+let assert = require('assert');
 
-let foldArrow = require('../../lib/foldArrow');
+let fold = require('../../../..');
+
+let foldArrow = require('../../../../lib/foldArrow');
 
 let {
     n, mount
@@ -25,3 +27,9 @@ let body = () => {
 mount(fold({
     head, body
 }), document.body);
+
+assert.equal(document.body.textContent.trim(), 'test')
+
+document.querySelector('span[style]').click();
+
+assert.equal(document.body.textContent.trim(), 'test456')
