@@ -1,6 +1,6 @@
 {
   "name": "kabanery-fold",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "fold component for kabanery",
   "main": "index.js",
   "scripts": {

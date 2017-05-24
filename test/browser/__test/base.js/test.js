@@ -28,8 +28,8 @@ mount(fold({
     head, body
 }), document.body);
 
-assert.equal(document.body.textContent.trim(), 'test')
+assert.equal(document.body.textContent.trim(), 'test');
 
 document.querySelector('span[style]').click();
 
-assert.equal(document.body.textContent.trim(), 'test456')
+assert.equal(document.body.textContent.trim(), 'test456');

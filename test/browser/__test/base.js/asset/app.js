@@ -3442,9 +3442,7 @@ let parseChildExp = (childExp) => {
             let child = childExp[i];
             ret = ret.concat(parseChildExp(child));
         }
-    } else if (childExp !== null &&
-        childExp !== undefined &&
-        childExp !== false) {
+    } else if (childExp) {
         ret.push(childExp);
     }
     return ret;
@@ -4929,11 +4927,11 @@ mount(fold({
     head, body
 }), document.body);
 
-assert.equal(document.body.textContent.trim(), 'test')
+assert.equal(document.body.textContent.trim(), 'test');
 
 document.querySelector('span[style]').click();
 
-assert.equal(document.body.textContent.trim(), 'test456')
+assert.equal(document.body.textContent.trim(), 'test456');
 
 
 /***/ }),
