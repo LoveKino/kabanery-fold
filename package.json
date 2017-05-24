@@ -23,7 +23,7 @@
   "homepage": "https://github.com/LoveKino/kabanery-fold#readme",
   "dependencies": {
     "css-shapes-object": "0.0.3",
-    "kabanery": "^0.2.0"
+    "kabanery": "^0.2.1"
   },
   "devDependencies": {
     "webpack": "^1.14.0"
